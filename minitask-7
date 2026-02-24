@@ -10,6 +10,7 @@ BEGIN
     nominal_bayar <- penggunaan_listrik * 3000
   ELSE
     nominal_bayar <- penggunaan_listrik * 5000
+  ENDIF
   OUTPUT("total tagihan=", nominal_bayar)
   END
     
