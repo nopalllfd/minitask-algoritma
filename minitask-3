@@ -1,0 +1,5 @@
+1. Mulai
+2. Deklarasikan nilai yang ingin ditentukan ganjil/genap sebagai variable X
+3. Lakukan penghitungan dengan operator modulo sisa bagi(%) 2,  jika X habis (0) setelah dimodulo maka nilai X adalah bilangan genap
+4. Jika tidak, X adalah bilangan ganjil
+5. Selesai
