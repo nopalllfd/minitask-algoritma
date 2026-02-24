@@ -14,7 +14,7 @@ BEGIN
           total_harga <- total_pembelian * 10%
       ENDIF
   ELSE
-    OUTPUT("Masukkan jumlah pembelian")
+    OUTPUT("Jumlah pemasukkan belum dimasukkan")
 OUTPUT("harga akhir=", total_harga)
 END
   
