@@ -7,17 +7,15 @@ BEGIN
       IF (total_pembelian < 500.000)
       THEN
           total_harga <- total_pembelian
-          OUTPUT("harga akhir=", total_harga)
       ELSEIF (total_pembelian > 500.000 AND total_pembelian < 1.000.000)
       THEN
           total_harga <- total_pembelian * 5%
-          OUTPUT("harga akhir=", total_harga)
       ELSE
           total_harga <- total_pembelian * 10%
-          OUTPUT("harga akhir=", total_harga)
       ENDIF
   ELSE
     OUTPUT("Masukkan jumlah pembelian")
+OUTPUT("harga akhir=", total_harga)
 END
   
     
