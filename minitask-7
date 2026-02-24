@@ -1,0 +1,15 @@
+FUNCTION HitungTagihanPLN
+  DECLARE penggunaan_listrik, nominal_bayar : float
+BEGIN
+  INPUT(penggunaan_listrik)
+  IF (penggunaan_listrik <= 100)
+  THEN
+    nominal_bayar <- penggunaan_listrik * 2000
+  ELSE IF (penggunaan_listrik > 100 AND penggunaan_listrik <= 200)
+  THEN
+    nominal_bayar <- penggunaan_listrik * 3000
+  ELSE
+    nominal_bayar <- penggunaan_listrik * 5000
+  OUTPUT("total tagihan=", nominal_bayar)
+  END
+    
