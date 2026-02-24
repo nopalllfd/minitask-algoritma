@@ -17,7 +17,7 @@ BEGIN
           OUTPUT("harga akhir=", total_harga)
       ENDIF
   ELSE
-    OUTPUT("Masukkan tipe data yang benar")
+    OUTPUT("Masukkan jumlah pembelian")
 END
   
     
